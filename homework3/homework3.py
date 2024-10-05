@@ -8,7 +8,7 @@ try:
         else:
             return ter(n//3) + str (n%3)
 
-    print("Троичная: ", ter(num))
+    print("Троичная система счисления: ", ter(num))
 
 except ValueError:
     print("Невозможно произвести код: введите целое число.")
